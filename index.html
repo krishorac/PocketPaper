@@ -1,51 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" >
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" charset="utf-8"></script>
-    <title></title>
-  </head>
-  <body>
+<html lang="en">
 
-    <div class="navbar">
-      <ul class="nav-list">
-        <li>
-          <h1>PocketPaper</h1>
-          </li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" charset="utf-8"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <ul class="nav-list">
+      <li>
+
+        <h1>PocketPaper</h1>
+      </li>
+    </ul>
+    <div class="dropdown123">
+      <ul class="dropdown-list">
+        <input type="text" name="" value="" placeholder="search articles"></input>
       </ul>
-      <div class="dropdown">
-          <ul class="dropdown-list">
-            <input type="text" name="" value="" placeholder="search articles"></input>
 
-            </ul>
-        </div>
+      <div class="dropdown"></div>
 
-      </div>
+    </div>
+
+  </div>
   <div class="heading">
     <h1>Top Stories</h1>
   </div>
-      <div class="grid-container">
-        <div class="grid-item grid-item1"  id="arts"><h1>Arts</h1></div>
-        <div class="grid-item grid-item2" id="automobiles"><h1>Automobiles</h1></div>
-        <div class="grid-item grid-item3" id="books"><h1>Books</h1></div>
-        <div class="grid-item grid-item4" id="business"><h1>Business</h1></div>
-        <div class="grid-item grid-item5" id="fashion"><h1>Fashion</h1></div>
-        <div class="grid-item grid-item6" id="food"><h1>Food</h1></div>
-        <div class="grid-item grid-item7" id="health"><h1>Health</h1></div>
-        <div class="grid-item grid-item8" id="home"><h1>Home</h1></div>
-        <div class="grid-item grid-item9" id="insider"><h1>Insider</h1></div>
-        <div class="grid-item grid-item10" id="magazine"><h1>Magazine</h1></div>
-        <div class="grid-item grid-item11" id="movies"><h1>Movies</h1></div>
-        <!-- <div class="grid-item grid-item12" id="nyregion">nyregion</div>
+  <div class="grid-container">
+    <div class="grid-item grid-item1" id="arts" onscroll="myfunc()">
+
+      <h1>Arts</h1>
+    </div>
+    <div class="grid-item grid-item2" id="automobiles" onscroll="myfunc()">
+      <h1>Automobiles</h1>
+    </div>
+    <div class="grid-item grid-item3" id="books" onscroll="myfunc()">
+      <h1>Books</h1>
+    </div>
+    <div class="grid-item grid-item4" id="business" onscroll="myfunc()">
+      <h1>Business</h1>
+    </div>
+    <div class="grid-item grid-item5" id="fashion" onscroll="myfunc()">
+      <h1>Fashion</h1>
+    </div>
+    <div class="grid-item grid-item6" id="food" onscroll="myfunc()">
+      <h1>Food</h1>
+    </div>
+    <div class="grid-item grid-item7" id="health" onscroll="myfunc()">
+      <h1>Health</h1>
+    </div>
+    <div class="grid-item grid-item8" id="home">
+      <h1>Home</h1>
+    </div>
+    <div class="grid-item grid-item9" id="insider">
+      <h1>Insider</h1>
+    </div>
+    <div class="grid-item grid-item10" id="magazine">
+      <h1>Magazine</h1>
+    </div>
+    <div class="grid-item grid-item11" id="movies">
+      <h1>Movies</h1>
+    </div>
+    <!-- <div class="grid-item grid-item12" id="nyregion">nyregion</div>
         <div class="grid-item grid-item13" id="obituaries">obituaries</div> -->
-        <!-- <div class="grid-item grid-item14" id="opinion">opinion</div>
+    <!-- <div class="grid-item grid-item14" id="opinion">opinion</div>
         <div class="grid-item grid-item15" id="politics">politics</div>
         <div class="grid-item grid-item16" id="realestate">realestate</div>
         <div class="grid-item grid-item17" id="science">science</div>
         <div class="grid-item grid-item18" id="sports">sports</div>
         <div class="grid-item grid-item19" id="sundayreview">sundayreview</div> -->
-        <!-- <div class="grid-item grid-item20" id="technology">technology</div>
+    <!-- <div class="grid-item grid-item20" id="technology">technology</div>
         <div class="grid-item grid-item11" id="theater"><h1>theater</h1></div>
         <div class="grid-item grid-item11" id="travel"><h1>travel</h1></div>
         <div class="grid-item grid-item11" id="upshot"><h1>upshot</h1></div>
@@ -55,9 +86,13 @@
 
 
 
-      </div>
+  </div>
+  <div class="footer">
+    copyrights reserved
+  </div>
 
 
-    <script src="app.js" charset="utf-8"></script>
-  </body>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
 </html>
